@@ -1,0 +1,19 @@
+1 - CSS (Cascading Style Sheet, ou Folha de Estilo em Cascatas)
+
+2 - O CSS Inline serve para dar estilo a um elemento HTML específico. O CSS interno requer que você adicione a tag <style> no seu documento HTML, sendo efetivo para dar estilo a uma única página. Já o CSS externo opera linkando suas páginas a um arquivo.
+
+3 - Seletores são padrões que correspondem a elementos específicos no DOM (Document Object Model) de uma página. Eles são cruciais para aplicar estilos de forma precisa, ex: de CLASSE, de ID e de ATRIBUTO 
+
+4 - é representado como um box retangular. Determina o tamanho, propriedades - como sua cor, fundo, estilo das bordas - e a posição desses boxes é o objetivo do mecanismo de renderização.
+
+5 - A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas, ou seja, o espaçamento interno. Já o margin , irá definir a distância a partir da borda de um elemento até outro elemento, sendo assim, o espaçamento externo.
+
+6 - O Position Absolute: é um tanto diferente do Relative. Enquanto o elemento com Position Relative utiliza seu próprio canto para referenciar sua posição, o elemento com Position Absolute se utiliza do ponto superior esquerdo de outros elementos. 
+
+7 - As Media Queries permitem detectar características importantes do dispositivo, como a largura e altura da viewport, a orientação da tela e a resolução da mesma. Com isso, é possível estabelecer diferentes estilos e regras para cada situação, garantindo que o site se adapte perfeitamente a diversos tamanhos de tela.
+
+8 - Unidades relativas são unidades cujo valor depende de um fator externo, como por exemplo a % que depende do valor do elemento pai, do vh que varia de acordo com a altura do viewport, e assim por diante, PX é uma unidade absoluta e é adequada quando você precisa definir tamanhos exatos. REM é uma unidade relativa ao tamanho da fonte raiz e é útil quando você deseja criar uma escala relativa e ajustável. A porcentagem é uma unidade relativa ao tamanho do elemento pai e é útil para criar layouts responsivos e flexíveis.
+
+9 - A propriedade display CSS define se um elemento é tratado como um bloco ou elemento inline e o layout usado para seus filhos, como layout de fluxo, grid ou flex, block: O elemento gera uma caixa de elemento de bloco, gerando quebras de linha antes e depois do elemento quando no fluxo normal,  inline: O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. No fluxo normal, o próximo elemento estará na mesma linha se houver espaço, inline-block: O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo ao redor como se fosse uma única caixa em linha (comportando-se como um elemento substituído faria).
+
+10 - Pseudo-classes permitem que você aplique um estilo a um elemento não apenas em relação ao conteúdo da árvore do documento, mas também em relação a fatores externos como o histórico de navegação (:visited, por exemplo), o status do seu conteúdo (como :checked em certos elementos de um formulário).
