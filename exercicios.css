@@ -1,0 +1,1712 @@
+
+Css selector:
+<style>
+p
+ {color: red;
+}
+
+</style>
+
+
+<style>
+
+#para1
+ { color: red; 
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p id="para1">This is a paragraph</p>
+</body>
+
+<style>
+.colortext
+ {color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+</body><style>
+h1, p
+ {color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <h2>This is a smaller heading</h2>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS HOW TO:
+
+<head>
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body
+ { Background-color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<body 
+style="background-color: red">
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p 
+{
+ color: red;
+}
+
+</style>
+
+CSS BACKGROUND:
+
+<style>
+h1 { background-color: lightblue;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  
+background-image: url("paper.gif");
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-repeat: repeat-y;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  background-image: url("img_tree.png");  
+  background-repeat: no-repeat;  
+  background-position: top right;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-attachment: fixed;
+}
+</style>
+
+
+CSS BORDER
+
+<style>
+p {
+  
+border: 4px dotted red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  border-style: dotted;
+  border-width: 4px;
+  border-color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  
+border-left-style: dotted;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+CSS MARGIN
+
+
+<style>
+h1 {
+  
+margin-left: 20px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  margin: 20px 40px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  margin: 20px 15px 25px 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  margin: auto;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+CSS PADDING
+
+<style>
+h1 {
+  padding-top: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  padding: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  padding: 40px 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+CSS HEIGHT/WIDTH
+
+
+<style>
+h1 {
+  height: 100px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  width: 50%;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+CSS BOX MODEL
+
+
+<style>
+div
+ {
+  width: 200px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div
+ {
+  width: 200px;
+  border: 2px solid red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+  margin-left: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+CSS OUTLINE
+
+
+<style>
+div {
+  outline-style: solid;
+  outline-width: 5px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  outline: 4px dotted red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+CSS BOX MODEL
+
+
+<style>
+div
+ {
+  width: 200px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div
+ {
+  width: 200px;
+  border: 2px solid red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+  margin-left: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+
+CSS TEXTO
+
+
+<style>
+p {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  text-align: center;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+a {
+  text-decoration: none;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+
+<style>
+h1 {
+  text-transform: uppercase;
+}
+p {
+  text-transform: capitalize;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  text-indent: 20px;
+}
+</style>
+
+<p>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</p>
+
+
+CSS FONT 
+
+
+<style>
+h1 {
+  font-family: Verdana;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  font-style: italic;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  font-size: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+p {
+  font-weight: bold;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+
+<style>
+p {
+  font-variant: small-caps;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+
+CSS LINKS
+
+
+<style>
+a {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+
+<style>
+a:hover {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+
+<style>
+a:visited {
+  color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+
+<style>
+/* unvisited link */
+a:link {text-decoration: none;}
+
+/* visited link */
+a:visited {text-decoration: none;}
+
+/* mouse over link */
+a:hover {text-decoration: underline;}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+
+CSS LISTS
+
+
+<style>
+ul {
+  list-style-type: square;
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+
+<style>
+ul {
+  
+list-style-image: url("bling.jpg");
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+
+<style>
+ul {
+  list-style-type: none;
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+
+<style>
+ol {
+  list-style-type: upper-roman;
+}
+</style>
+
+<body>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+</body>
+
+
+CSS TABLES
+
+
+<style>
+table, th, td {
+  border: 2px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+
+<style>
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+td {
+  text-align: right;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th {
+    padding: 15px;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th
+ {
+  
+background-color: lightblue;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+
+CSS DISPLAY/VISIBILITY
+
+
+<style>
+h1 {
+  visibility: hidden;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  display: none;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+li {
+  display: inline;
+}
+</style>
+
+<body>
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Pear</li>
+</ul>
+</body>
+
+
+<style>
+strong {
+  display: block;
+}
+</style>
+
+<body>
+<h1>This is a Heading</h1>
+<p>This is a <strong>paragraph</strong></p>
+</body>
+
+
+CSS POSITIONING
+
+
+<style>
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  position: absolute;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+.myheader {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1 class="myheader">This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+CSS Z-INDEX
+
+
+<style>
+#mytitle {
+  position: absolute;
+  top: 0;
+  z-index: 1;  
+}
+#myintro {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+</style>
+
+<body>
+  <h1 id="mytitle">This is a heading</h1>
+  <p id="myintro">This is a paragraph</p>
+</body>
+
+
+CSS OVERFLOW
+
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-x: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+
+CSS ALIGN
+
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+
+CSS COMBINATORS
+
+
+<style>
+div p {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+<style>
+div > p {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+<style>
+div + p {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+<style>
+div ~ p {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+CSS PSEUDO-CLASSES
+
+
+<style>
+a:hover {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<h1>This is a header.</h1>
+<p>This is a paragraph.</p>
+<a href="https://w3schools.com">This is a link.</a>
+
+</body>
+
+
+<style>
+.master:hover {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<h1 class="master">This is a header.</h1>
+<p class="master">This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+<style>
+p:first-child {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+<style>
+input:focus {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<form>
+  Name:
+  <input type="text" name="fname">
+  Age:
+  <input type="text" name="age">
+</form>
+
+</body>
+
+
+CSS PSEUDO-ELEMENTS
+
+
+<style>
+.intro::first-line {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<p class="intro">
+In my younger and more vulnerable years
+my father gave me some advice that I've
+been turning over in my mind ever since.
+'Whenever you feel like criticizing anyone,' he told me,
+'just remember that all the people in this world
+haven't had the advantages that you've had.'
+</p>
+
+</body>
+
+
+<style>
+.intro::first-letter {
+  background-color: red;
+}
+</style>
+
+<body>
+
+<p class="intro">
+In my younger and more vulnerable years
+my father gave me some advice that I've
+been turning over in my mind ever since.
+'Whenever you feel like criticizing anyone,' he told me,
+'just remember that all the people in this world
+haven't had the advantages that you've had.'
+</p>
+
+</body>
+
+
+<style>
+p::before {
+  content: url('smiley.gif');
+}
+p::after {
+  content: url('smiley.gif');
+}
+</style>
+
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+CSS OPACITY
+
+
+<style>
+img {
+  opacity: 0.5;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
+
+<style>
+img {
+  opacity: 0.4;
+}
+img:hover {
+  opacity: 1.0;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
+
+CSS ATTRIBUTE SELECTORS
+
+
+<style>
+a[target] {
+  background-color: red;
+}
+</style>
+
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+
+<style>
+a[target="_blank"] {
+  background-color: red;
+}
+</style>
+
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+
+<style>
+img[title~="blue"] {
+  border: 5px solid red;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+
+<style>
+img[title^="blue"] {
+  border: 5px solid red;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+
+<style>
+img[title$="flower"] {
+  border: 5px solid red;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+
+
+<style>
+img[title*="flower"] {
+  border: 5px solid red;
+}
+</style>
+
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+
+CSS ROUNDED CORNERS
+
+
+<style>
+div {
+  background: red;
+  border-radius: 10px;  
+}
+</style>
+
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+
+<style>
+div {
+  background: red;
+  border-bottom-left-radius: 10px;  
+}
+</style>
+
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+
+CSS BORDER IMAGES
+
+
+
+<style>
+div {
+  border: 10px solid transparent;
+  border-image: url(border.png) 30 round;
+}
+</style>
+
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+
+<style>
+div {
+  border-image-source: url(border.png);
+  border-image-repeat: stretch;  
+  border-image-slice: 30;
+}
+</style>
+
+<body>
+  <div>This is a div element. It has some text.</div>
+</body>
+
+
+CSS BACKGROUNDS
+
+
+<style>
+body {
+  background-image: url('img2.gif'), url('img1.gif');
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  background-image: url('img1.gif');
+  background-size: 100px 80px;
+  background-repeat: no-repeat;  
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+body {
+  background-image: url('img1.gif'), url('img2.gif');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+#example1 {
+  padding: 20px;
+  background-image: url('img1.gif');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+</style>
+
+
+<style>
+#example1 {
+  border: 10px dotted red;
+  padding: 20px;
+  background-color: yellow;
+  background-clip: padding-box;
+}
+</style>
+
+
+CSS COLORS
+
+
+<style>
+h1 {
+  background-color: rgba(255, 0, 0, 1.0);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  background-color: hsl(0, 100%, 50%);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+
+<style>
+h1 {
+  background-color: hsla(0, 100%, 50%, 0.3);
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+
+<style>
+h1 {
+  background-color: rgb(255, 0, 0);
+  opacity: 0.3;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
