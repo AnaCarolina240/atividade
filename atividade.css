@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade css</title>
+</head>
+<body>
+<h1>Primeiro titulo do meu site</h1>
+<p>Este é o paragrafo do meu site</p>
+<a href="https://github.com/petdoeprojeto">Link Github Petdoe</a>
+<div class="container">
+    <div class="texto">Opção 1</div>
+    <div class="texto">Opção 2</div>
+    <div class="texto">Opção 3</div>
+</div>
+<div class=".card">
+    <h2>Pet bonitinho</h2>
+    <p> cute cute </p>
+    <img src="https://i.imgur.com/yRoba4Q.jpeg" alt="petfofo">
+</div>
+</body>
+</html>
+<style>
+    h1{
+        color: blue;
+    }
+    p{
+       margin: 20px;
+       padding: 10px;
+    }
+    a:hover{
+        color: violet;
+    }
+    /* estilo layout*/
+    * {
+        margin: 10;
+        padding: 5;
+        box-sizing: border-box;
+    }
+    div{
+        border: 2px solid black;
+    
+    }
+
+    .card{
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(00, 00, 00, 0.15);
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+    
+
+    
+</style>
